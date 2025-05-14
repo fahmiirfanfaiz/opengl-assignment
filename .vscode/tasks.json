@@ -10,6 +10,8 @@
                 "-std=c++17",
                 "-I${workspaceFolder}/include",
                 "-L${workspaceFolder}/lib",
+                "-I${workspaceFolder}/include/glm",
+                "-I${workspaceFolder}/include/tinyobjloader",
                 "${workspaceFolder}/src/main.cpp",
                 "${workspaceFolder}/src/glad.c",
                 "-lglfw3dll",
